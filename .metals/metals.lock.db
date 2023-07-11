@@ -1,0 +1,6 @@
+#FileLock
+#Tue Jul 11 18:17:13 EEST 2023
+hostName=localhost
+id=18945872beae05c2868024bae9cddb7c39ceb0a11af
+method=file
+server=localhost\:50081

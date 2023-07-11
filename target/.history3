@@ -1,0 +1,9 @@
+1689073070549:run input/locations.json input/regions.json output/results.json
+1689073270386:run
+1689073404816:compile
+1689073419032:runMain MatchLocationToRegion input/locations.json input/regions.json output/results.json
+1689073471740:runMain MatchLocationToRegion src/main/input/locations.json src/main/input/regions.json output/results.json~
+1689073502757:runMain MatchLocationToRegion src/main/input/locations.json src/main/input/regions.json src/main/output/results.json
+1689073702373:runMain MatchLocationToRegion input/locations.json input/regions.json output/results.json~
+1689073790230:sbt "runMain MatchLocationToRegion src/main/input/locations.json src/main/input/regions.json src/main/output/results.json"
+1689073803815:runMain MatchLocationToRegion src/main/input/locations.json src/main/input/regions.json src/main/output/results.json

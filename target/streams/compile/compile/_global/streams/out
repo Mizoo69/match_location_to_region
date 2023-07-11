@@ -1,0 +1,8 @@
+[0m[[0m[31merror[0m] [0m[0mD:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala:128:35: value location is not a member of MatchedRegion[0m
+[0m[[0m[31merror[0m] [0m[0m        "region" -> matchedRegion.location,[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala:132:44: diverging implicit expansion for type play.api.libs.json.Writes[T1][0m
+[0m[[0m[31merror[0m] [0m[0mstarting with method Tuple22W in trait GeneratedWrites[0m
+[0m[[0m[31merror[0m] [0m[0m    Json.prettyPrint(Json.obj("regions" -> jsonList))[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

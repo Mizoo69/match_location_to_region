@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging D:\Traveltime_internship\project\target\scala-2.13\travel_time_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Location$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Traveltime_internship\project\target\scala-2.13\classes\Location$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Location.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Traveltime_internship\project\target\scala-2.13\classes\Location.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MatchLocationToRegion$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Traveltime_internship\project\target\scala-2.13\classes\MatchLocationToRegion$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MatchLocationToRegion.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Traveltime_internship\project\target\scala-2.13\classes\MatchLocationToRegion.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Region$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Traveltime_internship\project\target\scala-2.13\classes\Region$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Region.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Traveltime_internship\project\target\scala-2.13\classes\Region.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Results$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Traveltime_internship\project\target\scala-2.13\classes\Results$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Results.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  D:\Traveltime_internship\project\target\scala-2.13\classes\Results.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
