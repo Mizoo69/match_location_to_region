@@ -20,6 +20,7 @@
             "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\2.1.1\\scala-parser-combinators_2.13-2.1.1.jar",
             "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-json_2.13\\2.9.2\\play-json_2.13-2.9.2.jar",
             "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-native_2.13\\4.0.3\\json4s-native_2.13-4.0.3.jar",
+            "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\monovore\\decline_2.13\\2.4.1\\decline_2.13-2.4.1.jar",
             "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-functional_2.13\\2.9.2\\play-functional_2.13-2.9.2.jar",
             "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.8\\scala-reflect-2.13.8.jar",
             "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.10.5\\jackson-core-2.10.5.jar",
@@ -29,9 +30,11 @@
             "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.10.5.1\\jackson-databind-2.10.5.1.jar",
             "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-core_2.13\\4.0.3\\json4s-core_2.13-4.0.3.jar",
             "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-native-core_2.13\\4.0.3\\json4s-native-core_2.13-4.0.3.jar",
+            "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.13\\2.9.0\\cats-core_2.13-2.9.0.jar",
             "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-ast_2.13\\4.0.3\\json4s-ast_2.13-4.0.3.jar",
             "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-scalap_2.13\\4.0.3\\json4s-scalap_2.13-4.0.3.jar",
-            "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8.jar"
+            "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8.jar",
+            "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.13\\2.9.0\\cats-kernel_2.13-2.9.0.jar"
         ],
         "out": "D:\\Traveltime_internship\\project\\.bloop\\project",
         "classesDir": "D:\\Traveltime_internship\\project\\.bloop\\project\\scala-2.13\\test-classes",
@@ -204,6 +207,23 @@
                     ]
                 },
                 {
+                    "organization": "com.monovore",
+                    "name": "decline_2.13",
+                    "version": "2.4.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "decline_2.13",
+                            "path": "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\monovore\\decline_2.13\\2.4.1\\decline_2.13-2.4.1.jar"
+                        },
+                        {
+                            "name": "decline_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\monovore\\decline_2.13\\2.4.1\\decline_2.13-2.4.1-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.typesafe.play",
                     "name": "play-functional_2.13",
                     "version": "2.9.2",
@@ -357,6 +377,23 @@
                     ]
                 },
                 {
+                    "organization": "org.typelevel",
+                    "name": "cats-core_2.13",
+                    "version": "2.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-core_2.13",
+                            "path": "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.13\\2.9.0\\cats-core_2.13-2.9.0.jar"
+                        },
+                        {
+                            "name": "cats-core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.13\\2.9.0\\cats-core_2.13-2.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.json4s",
                     "name": "json4s-ast_2.13",
                     "version": "4.0.3",
@@ -404,6 +441,23 @@
                             "name": "paranamer",
                             "classifier": "sources",
                             "path": "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-kernel_2.13",
+                    "version": "2.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-kernel_2.13",
+                            "path": "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.13\\2.9.0\\cats-kernel_2.13-2.9.0.jar"
+                        },
+                        {
+                            "name": "cats-kernel_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\laisk\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.13\\2.9.0\\cats-kernel_2.13-2.9.0-sources.jar"
                         }
                     ]
                 },

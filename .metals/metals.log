@@ -651,3 +651,1280 @@ WARNING: Unmatched cancel notification for request id 1705
 2023.07.11 19:42:52 INFO  time: compiled project in 0.97s
 2023.07.11 19:48:23 INFO  compiling project (1 scala source)
 2023.07.11 19:48:25 INFO  time: compiled project in 1.45s
+2023.07.12 20:38:21 INFO  Started: Metals version 0.11.12 in workspace 'D:\Traveltime_internship\project' for client Visual Studio Code 1.80.0.
+Jul 12, 2023 8:38:21 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 12, 2023 8:38:21 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 12, 2023 8:38:21 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 12, 2023 8:38:25 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:D:\Traveltime_internship\project\.metals\metals (H2 2.1)
+Jul 12, 2023 8:38:25 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.018s)
+Jul 12, 2023 8:38:25 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 12, 2023 8:38:25 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.12 20:38:25 INFO  time: initialize in 4.58s
+2023.07.12 20:38:26 WARN  no build target for: D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 20:38:26 INFO  Attempting to connect to the build server...
+2023.07.12 20:38:26 INFO  Bloop uses C:\Users\laisk\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\laisk\.bloop\bloop.json
+2023.07.12 20:38:26 INFO  skipping build import with status 'Installed'
+2023.07.12 20:38:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Traveltime_internship\project\.metals\bsp.trace.json or C:\Users\laisk\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.07.12 20:38:27 INFO  Attempting to connect to the build server...
+2023.07.12 20:38:27 INFO  Bloop uses C:\Users\laisk\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\laisk\.bloop\bloop.json
+2023.07.12 20:38:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Traveltime_internship\project\project\.metals\bsp.trace.json or C:\Users\laisk\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.07.12 20:38:26 INFO  time: Connected to build server in 0.29s
+2023.07.12 20:38:26 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.12 20:38:28 INFO  no build target found for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.12 20:38:29 INFO  no build target found for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.12 20:38:32 INFO  time: code lens generation in 5.39s
+2023.07.12 20:38:32 INFO  time: code lens generation in 1.28s
+2023.07.12 20:38:33 INFO  time: indexed workspace in 4.75s
+2023.07.12 20:38:35 INFO  compiling project (1 scala source)
+2023.07.12 20:38:37 INFO  time: compiled project in 2.33s
+2023.07.12 20:38:40 INFO  time: code lens generation in 4.19s
+Jul 12, 2023 8:38:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.07.12 20:45:12 INFO  running 'C:\Users\laisk\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\laisk\AppData\Local\Temp\metals4429132306868496053\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.07.12 20:45:14 INFO  [info] welcome to sbt 1.9.0 (AdoptOpenJDK Java 1.8.0_292)
+2023.07.12 20:45:14 INFO  [info] loading settings for project project-build-build from metals.sbt ...
+2023.07.12 20:45:15 INFO  [info] loading project definition from D:\Traveltime_internship\project\project\project
+2023.07.12 20:45:15 INFO  [info] loading settings for project project-build from metals.sbt ...
+2023.07.12 20:45:16 INFO  [info] loading project definition from D:\Traveltime_internship\project\project
+2023.07.12 20:45:19 INFO  [success] Generated .bloop\project-build.json
+2023.07.12 20:45:19 INFO  [success] Total time: 2 s, completed Jul 12, 2023 8:45:19 PM
+2023.07.12 20:45:21 INFO  [info] loading settings for project project from build.sbt ...
+2023.07.12 20:45:21 INFO  [info] set current project to travel_time (in build file:/D:/Traveltime_internship/project/)
+2023.07.12 20:45:22 INFO  [success] Generated .bloop\project-test.json
+2023.07.12 20:45:22 INFO  [success] Generated .bloop\project.json
+2023.07.12 20:45:22 INFO  [success] Total time: 1 s, completed Jul 12, 2023 8:45:22 PM
+2023.07.12 20:45:22 INFO  time: ran 'sbt bloopInstall' in 9.84s
+2023.07.12 20:45:22 INFO  Disconnecting from Bloop session...
+2023.07.12 20:45:22 INFO  Shut down connection with build server.
+2023.07.12 20:45:22 INFO  Shut down connection with build server.
+2023.07.12 20:45:22 INFO  Attempting to connect to the build server...
+2023.07.12 20:45:22 INFO  Bloop uses C:\Users\laisk\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\laisk\.bloop\bloop.json
+2023.07.12 20:45:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Traveltime_internship\project\.metals\bsp.trace.json or C:\Users\laisk\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.07.12 20:45:22 INFO  Attempting to connect to the build server...
+2023.07.12 20:45:22 INFO  Bloop uses C:\Users\laisk\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\laisk\.bloop\bloop.json
+2023.07.12 20:45:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Traveltime_internship\project\project\.metals\bsp.trace.json or C:\Users\laisk\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.07.12 20:45:22 INFO  time: Connected to build server in 0.14s
+2023.07.12 20:45:22 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.12 20:45:23 INFO  time: indexed workspace in 1.18s
+2023.07.12 20:45:25 INFO  compiling project (1 scala source)
+2023.07.12 20:45:27 INFO  time: compiled project in 1.94s
+2023.07.12 20:50:58 INFO  compiling project (1 scala source)
+2023.07.12 20:50:59 INFO  time: compiled project in 1.26s
+2023.07.12 20:55:09 INFO  compiling project (1 scala source)
+2023.07.12 20:55:11 INFO  time: compiled project in 1.52s
+2023.07.12 20:56:02 INFO  compiling project (1 scala source)
+2023.07.12 20:56:02 INFO  time: compiled project in 0.44s
+2023.07.12 20:56:04 INFO  compiling project (1 scala source)
+2023.07.12 20:56:04 INFO  time: compiled project in 0.61s
+2023.07.12 20:56:35 INFO  compiling project (1 scala source)
+2023.07.12 20:56:35 INFO  time: compiled project in 0.3s
+Jul 12, 2023 8:56:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 211
+2023.07.12 20:56:45 INFO  compiling project (1 scala source)
+2023.07.12 20:56:45 INFO  time: compiled project in 0.28s
+Jul 12, 2023 8:59:06 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 12, 2023 8:59:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:88)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:139)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:136)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:66)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:238)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:237)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:57)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:95)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:81)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:313)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:495)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:494)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:66)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:287)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1985)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1980)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2040)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1940)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5952)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6119)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5634)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5954)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:117)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:459)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1349)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1342)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:680)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:829)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1212)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:439)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in play.api.libs.json.Format[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 524, 524, 540)
+2023.07.12 20:59:23 INFO  compiling project (1 scala source)
+2023.07.12 20:59:23 INFO  time: compiled project in 0.58s
+2023.07.12 21:00:08 INFO  compiling project (1 scala source)
+2023.07.12 21:00:08 INFO  time: compiled project in 0.43s
+2023.07.12 21:00:13 INFO  compiling project (1 scala source)
+2023.07.12 21:00:13 INFO  time: compiled project in 0.35s
+2023.07.12 21:01:26 INFO  compiling project (1 scala source)
+2023.07.12 21:01:26 INFO  time: compiled project in 0.41s
+2023.07.12 21:01:43 INFO  compiling project (1 scala source)
+2023.07.12 21:01:43 INFO  time: compiled project in 0.37s
+2023.07.12 21:01:52 INFO  compiling project (1 scala source)
+2023.07.12 21:01:52 INFO  time: compiled project in 0.33s
+2023.07.12 21:01:56 INFO  compiling project (1 scala source)
+2023.07.12 21:01:56 INFO  time: compiled project in 0.3s
+2023.07.12 21:02:02 INFO  compiling project (1 scala source)
+2023.07.12 21:02:02 INFO  time: compiled project in 0.29s
+2023.07.12 21:02:06 INFO  compiling project (1 scala source)
+2023.07.12 21:02:06 INFO  time: compiled project in 0.29s
+2023.07.12 21:02:16 INFO  compiling project (1 scala source)
+2023.07.12 21:02:16 INFO  time: compiled project in 0.29s
+2023.07.12 21:02:32 INFO  compiling project (1 scala source)
+2023.07.12 21:02:32 INFO  time: compiled project in 0.26s
+2023.07.12 21:02:37 INFO  compiling project (1 scala source)
+2023.07.12 21:02:37 INFO  time: compiled project in 0.26s
+Jul 12, 2023 9:03:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 788
+2023.07.12 21:03:18 INFO  compiling project (1 scala source)
+2023.07.12 21:03:18 INFO  compiling project (1 scala source)
+2023.07.12 21:03:18 INFO  time: compiled project in 0.44s
+2023.07.12 21:03:20 INFO  compiling project (1 scala source)
+2023.07.12 21:03:20 INFO  time: compiled project in 0.3s
+2023.07.12 21:03:26 INFO  compiling project (1 scala source)
+2023.07.12 21:03:26 INFO  time: compiled project in 0.32s
+2023.07.12 21:03:28 INFO  compiling project (1 scala source)
+2023.07.12 21:03:28 INFO  time: compiled project in 0.3s
+2023.07.12 21:03:38 INFO  compiling project (1 scala source)
+2023.07.12 21:03:38 INFO  time: compiled project in 0.32s
+2023.07.12 21:03:45 INFO  compiling project (1 scala source)
+2023.07.12 21:03:45 INFO  time: compiled project in 0.32s
+2023.07.12 21:04:21 INFO  compiling project (1 scala source)
+2023.07.12 21:04:21 INFO  time: compiled project in 0.3s
+2023.07.12 21:05:03 INFO  compiling project (1 scala source)
+2023.07.12 21:05:03 INFO  time: compiled project in 0.3s
+2023.07.12 21:05:12 INFO  compiling project (1 scala source)
+2023.07.12 21:05:12 INFO  time: compiled project in 0.27s
+2023.07.12 21:05:17 INFO  compiling project (1 scala source)
+2023.07.12 21:05:17 INFO  time: compiled project in 0.28s
+2023.07.12 21:06:23 INFO  compiling project (1 scala source)
+2023.07.12 21:06:23 INFO  time: compiled project in 0.3s
+Jul 12, 2023 9:07:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1090
+2023.07.12 21:07:31 INFO  compiling project (1 scala source)
+2023.07.12 21:07:31 INFO  time: compiled project in 0.32s
+2023.07.12 21:08:04 INFO  compiling project (1 scala source)
+2023.07.12 21:08:04 INFO  time: compiled project in 0.28s
+Jul 12, 2023 9:09:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1139
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:80:33: stale bloop error: value \ is not a member of Region
+                    val name = (region \ "name").validate[String]
+                                ^^^^^^^^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:81:40: stale bloop error: value \ is not a member of Region
+                    val coordinates = (region \ "coordinates").validate[List[List[List[Coordinates]]]]
+                                       ^^^^^^^^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:76: stale bloop error: type mismatch;
+ found   : Any
+ required: String
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                           ^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:79: stale bloop error: type mismatch;
+ found   : Any
+ required: List[List[List[Double]]]
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                              ^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:42: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Coordinates
+        polygons.exists(isPointInPolygon(point, _))
+                                         ^^^^^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:49: stale bloop error: type mismatch;
+ found   : List[List[Double]]
+ required: List[Coordinates]
+        polygons.exists(isPointInPolygon(point, _))
+                                                ^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:80:33: stale bloop error: value \ is not a member of Region
+                    val name = (region \ "name").validate[String]
+                                ^^^^^^^^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:81:40: stale bloop error: value \ is not a member of Region
+                    val coordinates = (region \ "coordinates").validate[List[List[List[Coordinates]]]]
+                                       ^^^^^^^^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:76: stale bloop error: type mismatch;
+ found   : Any
+ required: String
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                           ^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:79: stale bloop error: type mismatch;
+ found   : Any
+ required: List[List[List[Double]]]
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                              ^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:42: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Coordinates
+        polygons.exists(isPointInPolygon(point, _))
+                                         ^^^^^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:49: stale bloop error: type mismatch;
+ found   : List[List[Double]]
+ required: List[Coordinates]
+        polygons.exists(isPointInPolygon(point, _))
+                                                ^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:80:33: stale bloop error: value \ is not a member of Region
+                    val name = (region \ "name").validate[String]
+                                ^^^^^^^^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:81:40: stale bloop error: value \ is not a member of Region
+                    val coordinates = (region \ "coordinates").validate[List[List[List[Coordinates]]]]
+                                       ^^^^^^^^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:76: stale bloop error: type mismatch;
+ found   : Any
+ required: String
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                           ^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:79: stale bloop error: type mismatch;
+ found   : Any
+ required: List[List[List[Double]]]
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                              ^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:42: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Coordinates
+        polygons.exists(isPointInPolygon(point, _))
+                                         ^^^^^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:49: stale bloop error: type mismatch;
+ found   : List[List[Double]]
+ required: List[Coordinates]
+        polygons.exists(isPointInPolygon(point, _))
+                                                ^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:80:33: stale bloop error: value \ is not a member of Region
+                    val name = (region \ "name").validate[String]
+                                ^^^^^^^^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:81:40: stale bloop error: value \ is not a member of Region
+                    val coordinates = (region \ "coordinates").validate[List[List[List[Coordinates]]]]
+                                       ^^^^^^^^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:76: stale bloop error: type mismatch;
+ found   : Any
+ required: String
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                           ^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:79: stale bloop error: type mismatch;
+ found   : Any
+ required: List[List[List[Double]]]
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                              ^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:42: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Coordinates
+        polygons.exists(isPointInPolygon(point, _))
+                                         ^^^^^
+2023.07.12 21:09:19 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:49: stale bloop error: type mismatch;
+ found   : List[List[Double]]
+ required: List[Coordinates]
+        polygons.exists(isPointInPolygon(point, _))
+                                                ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:80:33: stale bloop error: value \ is not a member of Region
+                    val name = (region \ "name").validate[String]
+                                ^^^^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:81:40: stale bloop error: value \ is not a member of Region
+                    val coordinates = (region \ "coordinates").validate[List[List[List[Coordinates]]]]
+                                       ^^^^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:76: stale bloop error: type mismatch;
+ found   : Any
+ required: String
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                           ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:79: stale bloop error: type mismatch;
+ found   : Any
+ required: List[List[List[Double]]]
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                              ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:42: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Coordinates
+        polygons.exists(isPointInPolygon(point, _))
+                                         ^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:49: stale bloop error: type mismatch;
+ found   : List[List[Double]]
+ required: List[Coordinates]
+        polygons.exists(isPointInPolygon(point, _))
+                                                ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:80:33: stale bloop error: value \ is not a member of Region
+                    val name = (region \ "name").validate[String]
+                                ^^^^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:81:40: stale bloop error: value \ is not a member of Region
+                    val coordinates = (region \ "coordinates").validate[List[List[List[Coordinates]]]]
+                                       ^^^^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:76: stale bloop error: type mismatch;
+ found   : Any
+ required: String
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                           ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:79: stale bloop error: type mismatch;
+ found   : Any
+ required: List[List[List[Double]]]
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                              ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:42: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Coordinates
+        polygons.exists(isPointInPolygon(point, _))
+                                         ^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:49: stale bloop error: type mismatch;
+ found   : List[List[Double]]
+ required: List[Coordinates]
+        polygons.exists(isPointInPolygon(point, _))
+                                                ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:80:33: stale bloop error: value \ is not a member of Region
+                    val name = (region \ "name").validate[String]
+                                ^^^^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:81:40: stale bloop error: value \ is not a member of Region
+                    val coordinates = (region \ "coordinates").validate[List[List[List[Coordinates]]]]
+                                       ^^^^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:76: stale bloop error: type mismatch;
+ found   : Any
+ required: String
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                           ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:79: stale bloop error: type mismatch;
+ found   : Any
+ required: List[List[List[Double]]]
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                              ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:42: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Coordinates
+        polygons.exists(isPointInPolygon(point, _))
+                                         ^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:49: stale bloop error: type mismatch;
+ found   : List[List[Double]]
+ required: List[Coordinates]
+        polygons.exists(isPointInPolygon(point, _))
+                                                ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:80:33: stale bloop error: value \ is not a member of Region
+                    val name = (region \ "name").validate[String]
+                                ^^^^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:81:40: stale bloop error: value \ is not a member of Region
+                    val coordinates = (region \ "coordinates").validate[List[List[List[Coordinates]]]]
+                                       ^^^^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:76: stale bloop error: type mismatch;
+ found   : Any
+ required: String
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                           ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:79: stale bloop error: type mismatch;
+ found   : Any
+ required: List[List[List[Double]]]
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                              ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:42: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Coordinates
+        polygons.exists(isPointInPolygon(point, _))
+                                         ^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:49: stale bloop error: type mismatch;
+ found   : List[List[Double]]
+ required: List[Coordinates]
+        polygons.exists(isPointInPolygon(point, _))
+                                                ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:80:33: stale bloop error: value \ is not a member of Region
+                    val name = (region \ "name").validate[String]
+                                ^^^^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:81:40: stale bloop error: value \ is not a member of Region
+                    val coordinates = (region \ "coordinates").validate[List[List[List[Coordinates]]]]
+                                       ^^^^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:76: stale bloop error: type mismatch;
+ found   : Any
+ required: String
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                           ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:79: stale bloop error: type mismatch;
+ found   : Any
+ required: List[List[List[Double]]]
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                              ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:42: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Coordinates
+        polygons.exists(isPointInPolygon(point, _))
+                                         ^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:49: stale bloop error: type mismatch;
+ found   : List[List[Double]]
+ required: List[Coordinates]
+        polygons.exists(isPointInPolygon(point, _))
+                                                ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:80:33: stale bloop error: value \ is not a member of Region
+                    val name = (region \ "name").validate[String]
+                                ^^^^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:81:40: stale bloop error: value \ is not a member of Region
+                    val coordinates = (region \ "coordinates").validate[List[List[List[Coordinates]]]]
+                                       ^^^^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:76: stale bloop error: type mismatch;
+ found   : Any
+ required: String
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                           ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:79: stale bloop error: type mismatch;
+ found   : Any
+ required: List[List[List[Double]]]
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                              ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:42: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Coordinates
+        polygons.exists(isPointInPolygon(point, _))
+                                         ^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:49: stale bloop error: type mismatch;
+ found   : List[List[Double]]
+ required: List[Coordinates]
+        polygons.exists(isPointInPolygon(point, _))
+                                                ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:80:33: stale bloop error: value \ is not a member of Region
+                    val name = (region \ "name").validate[String]
+                                ^^^^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:81:40: stale bloop error: value \ is not a member of Region
+                    val coordinates = (region \ "coordinates").validate[List[List[List[Coordinates]]]]
+                                       ^^^^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:76: stale bloop error: type mismatch;
+ found   : Any
+ required: String
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                           ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:79: stale bloop error: type mismatch;
+ found   : Any
+ required: List[List[List[Double]]]
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                              ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:42: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Coordinates
+        polygons.exists(isPointInPolygon(point, _))
+                                         ^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:49: stale bloop error: type mismatch;
+ found   : List[List[Double]]
+ required: List[Coordinates]
+        polygons.exists(isPointInPolygon(point, _))
+                                                ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:80:33: stale bloop error: value \ is not a member of Region
+                    val name = (region \ "name").validate[String]
+                                ^^^^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:81:40: stale bloop error: value \ is not a member of Region
+                    val coordinates = (region \ "coordinates").validate[List[List[List[Coordinates]]]]
+                                       ^^^^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:76: stale bloop error: type mismatch;
+ found   : Any
+ required: String
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                           ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:79: stale bloop error: type mismatch;
+ found   : Any
+ required: List[List[List[Double]]]
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                              ^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:42: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Coordinates
+        polygons.exists(isPointInPolygon(point, _))
+                                         ^^^^^
+2023.07.12 21:09:22 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:49: stale bloop error: type mismatch;
+ found   : List[List[Double]]
+ required: List[Coordinates]
+        polygons.exists(isPointInPolygon(point, _))
+                                                ^
+2023.07.12 21:09:23 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:80:33: stale bloop error: value \ is not a member of Region
+                    val name = (region \ "name").validate[String]
+                                ^^^^^^^^
+2023.07.12 21:09:23 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:81:40: stale bloop error: value \ is not a member of Region
+                    val coordinates = (region \ "coordinates").validate[List[List[List[Coordinates]]]]
+                                       ^^^^^^^^
+2023.07.12 21:09:23 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:76: stale bloop error: type mismatch;
+ found   : Any
+ required: String
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                           ^
+2023.07.12 21:09:23 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:79: stale bloop error: type mismatch;
+ found   : Any
+ required: List[List[List[Double]]]
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                              ^
+2023.07.12 21:09:23 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:42: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Coordinates
+        polygons.exists(isPointInPolygon(point, _))
+                                         ^^^^^
+2023.07.12 21:09:23 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:49: stale bloop error: type mismatch;
+ found   : List[List[Double]]
+ required: List[Coordinates]
+        polygons.exists(isPointInPolygon(point, _))
+                                                ^
+2023.07.12 21:09:23 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:80:33: stale bloop error: value \ is not a member of Region
+                    val name = (region \ "name").validate[String]
+                                ^^^^^^^^
+2023.07.12 21:09:23 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:81:40: stale bloop error: value \ is not a member of Region
+                    val coordinates = (region \ "coordinates").validate[List[List[List[Coordinates]]]]
+                                       ^^^^^^^^
+2023.07.12 21:09:23 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:76: stale bloop error: type mismatch;
+ found   : Any
+ required: String
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                           ^
+2023.07.12 21:09:23 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:85:79: stale bloop error: type mismatch;
+ found   : Any
+ required: List[List[List[Double]]]
+                    case (JsSuccess(n, _), JsSuccess(c, _)) => Some(Region(n, c))
+                                                                              ^
+2023.07.12 21:09:23 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:42: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Coordinates
+        polygons.exists(isPointInPolygon(point, _))
+                                         ^^^^^
+2023.07.12 21:09:23 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:104:49: stale bloop error: type mismatch;
+ found   : List[List[Double]]
+ required: List[Coordinates]
+        polygons.exists(isPointInPolygon(point, _))
+                                                ^
+2023.07.12 21:09:24 INFO  compiling project (1 scala source)
+2023.07.12 21:09:24 INFO  time: compiled project in 0.27s
+2023.07.12 21:10:13 INFO  compiling project (1 scala source)
+2023.07.12 21:10:13 INFO  time: compiled project in 0.28s
+2023.07.12 21:10:16 INFO  compiling project (1 scala source)
+2023.07.12 21:10:16 INFO  time: compiled project in 0.26s
+2023.07.12 21:10:18 INFO  compiling project (1 scala source)
+2023.07.12 21:10:18 INFO  time: compiled project in 0.28s
+2023.07.12 21:10:26 INFO  compiling project (1 scala source)
+2023.07.12 21:10:26 INFO  time: compiled project in 0.26s
+2023.07.12 21:10:29 INFO  compiling project (1 scala source)
+2023.07.12 21:10:29 INFO  time: compiled project in 0.27s
+2023.07.12 21:10:52 INFO  compiling project (1 scala source)
+2023.07.12 21:10:52 INFO  time: compiled project in 0.31s
+2023.07.12 21:12:44 INFO  compiling project (1 scala source)
+2023.07.12 21:12:44 INFO  time: compiled project in 0.24s
+2023.07.12 21:12:46 INFO  compiling project (1 scala source)
+2023.07.12 21:12:46 INFO  time: compiled project in 0.24s
+2023.07.12 21:12:58 INFO  compiling project (1 scala source)
+2023.07.12 21:12:58 INFO  time: compiled project in 0.25s
+2023.07.12 21:13:07 INFO  compiling project (1 scala source)
+2023.07.12 21:13:07 INFO  time: compiled project in 0.24s
+2023.07.12 21:13:10 INFO  compiling project (1 scala source)
+2023.07.12 21:13:10 INFO  time: compiled project in 0.29s
+2023.07.12 21:13:53 INFO  compiling project (1 scala source)
+2023.07.12 21:13:53 INFO  time: compiled project in 0.24s
+2023.07.12 21:13:55 INFO  compiling project (1 scala source)
+2023.07.12 21:13:55 INFO  time: compiled project in 0.11s
+2023.07.12 21:13:58 INFO  compiling project (1 scala source)
+2023.07.12 21:13:58 INFO  time: compiled project in 0.24s
+2023.07.12 21:14:01 INFO  compiling project (1 scala source)
+2023.07.12 21:14:01 INFO  time: compiled project in 0.28s
+2023.07.12 21:14:14 INFO  compiling project (1 scala source)
+2023.07.12 21:14:14 INFO  time: compiled project in 0.24s
+2023.07.12 21:14:29 INFO  compiling project (1 scala source)
+2023.07.12 21:14:29 INFO  time: compiled project in 0.23s
+2023.07.12 21:14:44 INFO  compiling project (1 scala source)
+2023.07.12 21:14:44 INFO  time: compiled project in 0.24s
+2023.07.12 21:14:46 INFO  compiling project (1 scala source)
+2023.07.12 21:14:46 INFO  time: compiled project in 0.24s
+2023.07.12 21:14:49 INFO  compiling project (1 scala source)
+2023.07.12 21:14:49 INFO  time: compiled project in 0.22s
+2023.07.12 21:15:05 INFO  compiling project (1 scala source)
+2023.07.12 21:15:05 INFO  time: compiled project in 0.23s
+2023.07.12 21:15:16 INFO  compiling project (1 scala source)
+2023.07.12 21:15:16 INFO  time: compiled project in 0.24s
+2023.07.12 21:15:22 INFO  compiling project (1 scala source)
+2023.07.12 21:15:22 INFO  time: compiled project in 0.28s
+2023.07.12 21:16:10 INFO  compiling project (1 scala source)
+2023.07.12 21:16:11 INFO  time: compiled project in 1.2s
+2023.07.12 21:16:14 INFO  compiling project (1 scala source)
+2023.07.12 21:16:15 INFO  time: compiled project in 1.44s
+2023.07.12 21:17:37 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:17:37 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:17:37 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:17:37 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:17:37 INFO  compiling project (1 scala source)
+2023.07.12 21:17:38 INFO  time: compiled project in 1.08s
+2023.07.12 21:17:40 INFO  compiling project (1 scala source)
+2023.07.12 21:17:41 INFO  time: compiled project in 1.01s
+2023.07.12 21:19:15 INFO  compiling project (1 scala source)
+2023.07.12 21:19:16 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:19:15 INFO  time: compiled project in 0.18s
+2023.07.12 21:19:18 INFO  compiling project (1 scala source)
+2023.07.12 21:19:18 INFO  time: compiled project in 0.17s
+2023.07.12 21:19:18 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:19:21 INFO  compiling project (1 scala source)
+2023.07.12 21:19:21 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:19:21 INFO  time: compiled project in 0.2s
+2023.07.12 21:19:24 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:19:32 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:19:36 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:19:36 INFO  compiling project (1 scala source)
+2023.07.12 21:19:36 INFO  time: compiled project in 0.16s
+2023.07.12 21:19:39 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:19:46 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:19:59 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:20:00 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:20:01 INFO  compiling project (1 scala source)
+2023.07.12 21:20:01 INFO  time: compiled project in 0.17s
+2023.07.12 21:20:03 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:20:18 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:20:20 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:20:21 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:20:32 INFO  compiling project (1 scala source)
+2023.07.12 21:20:32 INFO  time: compiled project in 0.17s
+2023.07.12 21:21:18 INFO  compiling project (1 scala source)
+2023.07.12 21:21:18 INFO  time: compiled project in 0.17s
+2023.07.12 21:21:25 INFO  compiling project (1 scala source)
+2023.07.12 21:21:25 INFO  time: compiled project in 0.18s
+2023.07.12 21:21:29 INFO  compiling project (1 scala source)
+2023.07.12 21:21:29 INFO  time: compiled project in 0.17s
+2023.07.12 21:21:39 INFO  compiling project (1 scala source)
+2023.07.12 21:21:39 INFO  time: compiled project in 0.17s
+2023.07.12 21:21:46 INFO  compiling project (1 scala source)
+2023.07.12 21:21:46 INFO  time: compiled project in 0.18s
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[List[List[Double]]]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 3917, 3917, 3940)
+2023.07.12 21:22:00 INFO  compiling project (1 scala source)
+2023.07.12 21:22:00 INFO  time: compiled project in 0.17s
+2023.07.12 21:22:19 INFO  compiling project (1 scala source)
+2023.07.12 21:22:19 INFO  time: compiled project in 0.18s
+2023.07.12 21:22:24 INFO  compiling project (1 scala source)
+2023.07.12 21:22:24 INFO  time: compiled project in 0.16s
+2023.07.12 21:23:07 INFO  compiling project (1 scala source)
+2023.07.12 21:23:07 INFO  time: compiled project in 0.17s
+2023.07.12 21:23:11 INFO  compiling project (1 scala source)
+2023.07.12 21:23:11 INFO  time: compiled project in 0.17s
+2023.07.12 21:23:21 INFO  compiling project (1 scala source)
+2023.07.12 21:23:21 INFO  time: compiled project in 0.17s
+2023.07.12 21:24:05 INFO  compiling project (1 scala source)
+2023.07.12 21:24:05 INFO  time: compiled project in 0.16s
+2023.07.12 21:24:32 INFO  compiling project (1 scala source)
+2023.07.12 21:24:32 INFO  time: compiled project in 0.19s
+2023.07.12 21:24:48 INFO  compiling project (1 scala source)
+2023.07.12 21:24:48 INFO  time: compiled project in 97ms
+2023.07.12 21:24:59 INFO  compiling project (1 scala source)
+2023.07.12 21:24:59 INFO  time: compiled project in 0.17s
+2023.07.12 21:25:57 INFO  compiling project (1 scala source)
+2023.07.12 21:25:57 INFO  time: compiled project in 0.16s
+2023.07.12 21:26:15 INFO  compiling project (1 scala source)
+2023.07.12 21:26:15 INFO  time: compiled project in 0.18s
+2023.07.12 21:26:27 INFO  compiling project (1 scala source)
+2023.07.12 21:26:27 INFO  time: compiled project in 0.23s
+2023.07.12 21:26:36 INFO  compiling project (1 scala source)
+2023.07.12 21:26:36 INFO  time: compiled project in 0.18s
+2023.07.12 21:26:45 INFO  compiling project (1 scala source)
+2023.07.12 21:26:45 INFO  time: compiled project in 99ms
+2023.07.12 21:26:47 INFO  compiling project (1 scala source)
+2023.07.12 21:26:47 INFO  time: compiled project in 0.25s
+2023.07.12 21:26:53 INFO  compiling project (1 scala source)
+2023.07.12 21:26:53 INFO  time: compiled project in 0.18s
+2023.07.12 21:26:56 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:97:36: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Double
+        val polygons = Coordinates(region.coordinates(0), region.coordinates(1))
+                                   ^^^^^^^^^^^^^^^^^^^^^
+2023.07.12 21:26:56 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:97:59: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Double
+        val polygons = Coordinates(region.coordinates(0), region.coordinates(1))
+                                                          ^^^^^^^^^^^^^^^^^^^^^
+2023.07.12 21:26:56 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:97:36: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Double
+        val polygons = Coordinates(region.coordinates(0), region.coordinates(1))
+                                   ^^^^^^^^^^^^^^^^^^^^^
+2023.07.12 21:26:56 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:97:59: stale bloop error: type mismatch;
+ found   : List[Double]
+ required: Double
+        val polygons = Coordinates(region.coordinates(0), region.coordinates(1))
+                                                          ^^^^^^^^^^^^^^^^^^^^^
+2023.07.12 21:26:59 INFO  compiling project (1 scala source)
+2023.07.12 21:26:59 INFO  time: compiled project in 0.17s
+2023.07.12 21:27:02 INFO  compiling project (1 scala source)
+2023.07.12 21:27:02 INFO  time: compiled project in 0.17s
+2023.07.12 21:27:05 INFO  compiling project (1 scala source)
+2023.07.12 21:27:05 INFO  time: compiled project in 0.16s
+2023.07.12 21:27:09 INFO  compiling project (1 scala source)
+2023.07.12 21:27:09 INFO  time: compiled project in 0.16s
+2023.07.12 21:27:14 INFO  compiling project (1 scala source)
+2023.07.12 21:27:14 INFO  time: compiled project in 0.16s
+2023.07.12 21:27:39 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:98:9: stale bloop error: value exists is not a member of Coordinates
+        polygons.exists(isPointInPolygon(point, _))
+        ^^^^^^^^^^^^^^^
+2023.07.12 21:27:39 INFO  file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala:98:9: stale bloop error: value exists is not a member of Coordinates
+        polygons.exists(isPointInPolygon(point, _))
+        ^^^^^^^^^^^^^^^
+2023.07.12 21:27:48 INFO  compiling project (1 scala source)
+2023.07.12 21:27:48 INFO  time: compiled project in 0.17s
+2023.07.12 21:28:01 INFO  compiling project (1 scala source)
+2023.07.12 21:28:01 INFO  time: compiled project in 0.96s
+2023.07.12 21:29:11 INFO  compiling project (1 scala source)
+2023.07.12 21:29:12 INFO  time: compiled project in 1.26s
+2023.07.12 21:29:40 INFO  compiling project (1 scala source)
+2023.07.12 21:29:40 INFO  time: compiled project in 0.18s
+2023.07.12 21:29:43 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:29:45 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 3903, 3903, 3917)
+2023.07.12 21:29:46 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 3903, 3903, 3910)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 3903, 3903, 3912)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[Coordinates]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 3903, 3903, 3920)
+2023.07.12 21:29:48 INFO  compiling project (1 scala source)
+2023.07.12 21:29:48 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:29:48 INFO  time: compiled project in 0.18s
+2023.07.12 21:29:50 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:29:54 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:29:59 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:30:00 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:30:00 INFO  compiling project (1 scala source)
+2023.07.12 21:30:00 INFO  time: compiled project in 0.21s
+2023.07.12 21:30:03 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:30:05 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:30:05 INFO  compiling project (1 scala source)
+2023.07.12 21:30:05 INFO  time: compiled project in 0.17s
+2023.07.12 21:30:08 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:30:12 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:30:20 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:30:26 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:30:30 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:30:33 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:30:41 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:30:47 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:30:49 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:30:50 INFO  compiling project (1 scala source)
+2023.07.12 21:30:50 INFO  time: compiled project in 0.2s
+2023.07.12 21:30:52 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:30:52 INFO  compiling project (1 scala source)
+2023.07.12 21:30:52 INFO  time: compiled project in 0.18s
+2023.07.12 21:30:52 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:30:55 INFO  compiling project (1 scala source)
+2023.07.12 21:30:55 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:30:55 INFO  time: compiled project in 0.18s
+2023.07.12 21:30:58 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:30:58 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:01 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:01 INFO  compiling project (1 scala source)
+2023.07.12 21:31:01 INFO  time: compiled project in 0.17s
+2023.07.12 21:31:03 INFO  compiling project (1 scala source)
+2023.07.12 21:31:03 INFO  time: compiled project in 0.2s
+2023.07.12 21:31:03 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:06 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:06 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:07 INFO  compiling project (1 scala source)
+2023.07.12 21:31:07 INFO  time: compiled project in 0.17s
+2023.07.12 21:31:09 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:11 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:13 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:14 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:14 INFO  compiling project (1 scala source)
+2023.07.12 21:31:14 INFO  time: compiled project in 0.17s
+2023.07.12 21:31:17 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:17 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:19 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:19 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:20 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:21 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:24 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:25 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:27 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:30 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:30 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:31 INFO  compiling project (1 scala source)
+2023.07.12 21:31:31 INFO  time: compiled project in 0.19s
+2023.07.12 21:31:35 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:37 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:40 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:42 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:45 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:47 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:47 INFO  compiling project (1 scala source)
+2023.07.12 21:31:47 INFO  time: compiled project in 0.18s
+2023.07.12 21:31:50 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:52 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:52 INFO  compiling project (1 scala source)
+2023.07.12 21:31:52 INFO  time: compiled project in 0.16s
+2023.07.12 21:31:54 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:54 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:55 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:56 INFO  compiling project (1 scala source)
+2023.07.12 21:31:56 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:56 INFO  time: compiled project in 0.18s
+2023.07.12 21:31:59 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:31:59 INFO  compiling project (1 scala source)
+2023.07.12 21:31:59 INFO  time: compiled project in 0.17s
+2023.07.12 21:32:02 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:32:11 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:32:15 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:32:16 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:01 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:02 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:02 INFO  compiling project (1 scala source)
+2023.07.12 21:33:02 INFO  time: compiled project in 0.16s
+2023.07.12 21:33:05 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:07 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:12 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:14 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:17 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[List[Coordinates]]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 3887, 3887, 3909)
+2023.07.12 21:33:17 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:20 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:20 INFO  compiling project (1 scala source)
+2023.07.12 21:33:20 INFO  time: compiled project in 0.17s
+2023.07.12 21:33:23 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:24 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:27 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:31 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:33 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:33 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:34 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:34 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:34 INFO  compiling project (1 scala source)
+2023.07.12 21:33:34 INFO  time: compiled project in 0.18s
+2023.07.12 21:33:37 INFO  compiling project (1 scala source)
+2023.07.12 21:33:37 INFO  time: compiled project in 0.16s
+2023.07.12 21:33:37 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:33:39 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:34:18 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:34:21 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:34:21 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:34:21 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:34:21 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:34:21 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:34:22 INFO  compiling project (1 scala source)
+2023.07.12 21:34:22 INFO  time: compiled project in 0.16s
+2023.07.12 21:34:23 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:34:24 INFO  compiling project (1 scala source)
+2023.07.12 21:34:24 INFO  time: compiled project in 0.17s
+2023.07.12 21:34:24 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:34:26 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:34:51 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:34:56 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:34:58 INFO  compiling project (1 scala source)
+2023.07.12 21:34:58 INFO  time: compiled project in 0.1s
+2023.07.12 21:35:01 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:35:02 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:35:02 INFO  compiling project (1 scala source)
+2023.07.12 21:35:02 INFO  time: compiled project in 0.17s
+2023.07.12 21:35:03 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:35:03 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:35:03 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:35:03 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:35:04 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:35:05 INFO  compiling project (1 scala source)
+2023.07.12 21:35:05 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:35:05 INFO  time: compiled project in 0.18s
+2023.07.12 21:35:08 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:35:09 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:35:09 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:35:11 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:35:14 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:35:14 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:35:14 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:35:14 WARN  Using indexes to guess the definition of Results
+2023.07.12 21:35:15 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:35:19 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:35:19 INFO  compiling project (1 scala source)
+2023.07.12 21:35:19 INFO  time: compiled project in 0.94s
+2023.07.12 21:35:59 INFO  compiling project (1 scala source)
+2023.07.12 21:36:00 INFO  time: compiled project in 1.1s
+Jul 12, 2023 9:38:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3748
+2023.07.12 21:38:52 INFO  compiling project (1 scala source)
+2023.07.12 21:38:52 INFO  time: compiled project in 0.17s
+2023.07.12 21:38:55 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:38:58 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 21:39:36 INFO  compiling project (1 scala source)
+2023.07.12 21:39:36 INFO  time: compiled project in 0.17s
+2023.07.12 21:40:33 INFO  compiling project (1 scala source)
+2023.07.12 21:40:33 INFO  time: compiled project in 0.16s
+2023.07.12 21:40:47 INFO  compiling project (1 scala source)
+2023.07.12 21:40:47 INFO  time: compiled project in 0.19s
+2023.07.12 21:41:35 INFO  compiling project (1 scala source)
+2023.07.12 21:41:35 INFO  time: compiled project in 0.17s
+2023.07.12 21:41:37 INFO  compiling project (1 scala source)
+2023.07.12 21:41:37 INFO  time: compiled project in 0.17s
+2023.07.12 21:41:40 INFO  compiling project (1 scala source)
+2023.07.12 21:41:40 INFO  time: compiled project in 0.17s
+2023.07.12 21:41:54 INFO  compiling project (1 scala source)
+2023.07.12 21:41:54 INFO  time: compiled project in 0.17s
+2023.07.12 21:41:57 INFO  compiling project (1 scala source)
+2023.07.12 21:41:57 INFO  time: compiled project in 0.18s
+2023.07.12 21:42:02 INFO  compiling project (1 scala source)
+2023.07.12 21:42:03 INFO  time: compiled project in 1.02s
+2023.07.12 21:44:48 INFO  compiling project (1 scala source)
+2023.07.12 21:44:49 INFO  time: compiled project in 1.03s
+2023.07.12 21:45:00 INFO  compiling project (1 scala source)
+2023.07.12 21:45:01 INFO  time: compiled project in 1.03s
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 449, 449, 463)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 449, 449, 456)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 449, 449, 457)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 449, 449, 458)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[Coordinates]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 449, 449, 466)
+2023.07.12 21:48:06 INFO  compiling project (1 scala source)
+2023.07.12 21:48:07 INFO  time: compiled project in 1.06s
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 276, 276, 290)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 276, 276, 283)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 276, 276, 284)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[Polygon]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 276, 276, 289)
+2023.07.12 21:48:20 INFO  compiling project (1 scala source)
+2023.07.12 21:48:20 INFO  time: compiled project in 0.19s
+2023.07.12 21:48:33 INFO  compiling project (1 scala source)
+2023.07.12 21:48:33 INFO  time: compiled project in 0.17s
+2023.07.12 21:48:45 INFO  compiling project (1 scala source)
+2023.07.12 21:48:45 INFO  time: compiled project in 0.17s
+2023.07.12 21:48:53 INFO  compiling project (1 scala source)
+2023.07.12 21:48:53 INFO  time: compiled project in 0.16s
+2023.07.12 21:49:28 INFO  compiling project (1 scala source)
+2023.07.12 21:49:28 INFO  time: compiled project in 0.19s
+2023.07.12 21:49:35 INFO  compiling project (1 scala source)
+2023.07.12 21:49:35 INFO  time: compiled project in 0.17s
+2023.07.12 21:49:46 INFO  compiling project (1 scala source)
+2023.07.12 21:49:46 INFO  time: compiled project in 0.17s
+2023.07.12 21:50:03 INFO  compiling project (1 scala source)
+2023.07.12 21:50:03 INFO  time: compiled project in 0.16s
+2023.07.12 21:50:09 INFO  compiling project (1 scala source)
+2023.07.12 21:50:09 INFO  time: compiled project in 0.16s
+2023.07.12 21:50:31 INFO  compiling project (1 scala source)
+2023.07.12 21:50:31 INFO  time: compiled project in 0.2s
+2023.07.12 21:50:46 INFO  compiling project (1 scala source)
+2023.07.12 21:50:46 INFO  time: compiled project in 0.17s
+2023.07.12 21:51:06 INFO  compiling project (1 scala source)
+2023.07.12 21:51:06 INFO  time: compiled project in 0.19s
+2023.07.12 21:51:18 INFO  compiling project (1 scala source)
+2023.07.12 21:51:18 INFO  time: compiled project in 0.16s
+2023.07.12 21:52:10 INFO  compiling project (1 scala source)
+2023.07.12 21:52:10 INFO  time: compiled project in 0.16s
+2023.07.12 21:52:41 INFO  compiling project (1 scala source)
+2023.07.12 21:52:41 INFO  time: compiled project in 0.2s
+2023.07.12 21:52:44 INFO  compiling project (1 scala source)
+2023.07.12 21:52:44 INFO  time: compiled project in 0.17s
+2023.07.12 21:52:50 INFO  compiling project (1 scala source)
+2023.07.12 21:52:50 INFO  time: compiled project in 0.17s
+2023.07.12 21:53:31 INFO  compiling project (1 scala source)
+2023.07.12 21:53:31 INFO  time: compiled project in 0.17s
+2023.07.12 21:53:35 INFO  compiling project (1 scala source)
+2023.07.12 21:53:35 INFO  time: compiled project in 0.18s
+2023.07.12 21:53:38 INFO  compiling project (1 scala source)
+2023.07.12 21:53:38 INFO  time: compiled project in 0.16s
+2023.07.12 21:53:41 INFO  compiling project (1 scala source)
+2023.07.12 21:53:41 INFO  time: compiled project in 0.16s
+2023.07.12 21:53:53 INFO  compiling project (1 scala source)
+2023.07.12 21:53:53 INFO  time: compiled project in 0.16s
+2023.07.12 21:54:15 INFO  compiling project (1 scala source)
+2023.07.12 21:54:15 INFO  time: compiled project in 0.18s
+2023.07.12 21:54:17 INFO  compiling project (1 scala source)
+2023.07.12 21:54:17 INFO  time: compiled project in 0.17s
+2023.07.12 21:54:40 INFO  compiling project (1 scala source)
+2023.07.12 21:54:40 INFO  time: compiled project in 0.16s
+2023.07.12 21:55:18 INFO  compiling project (1 scala source)
+2023.07.12 21:55:18 INFO  time: compiled project in 0.16s
+2023.07.12 21:55:48 INFO  compiling project (1 scala source)
+2023.07.12 21:55:48 INFO  time: compiled project in 0.2s
+2023.07.12 21:56:06 INFO  compiling project (1 scala source)
+2023.07.12 21:56:06 INFO  time: compiled project in 0.17s
+2023.07.12 21:57:07 INFO  compiling project (1 scala source)
+2023.07.12 21:57:07 INFO  time: compiled project in 0.18s
+2023.07.12 21:57:24 INFO  compiling project (1 scala source)
+2023.07.12 21:57:24 INFO  time: compiled project in 0.18s
+2023.07.12 21:57:37 INFO  compiling project (1 scala source)
+2023.07.12 21:57:39 INFO  time: compiled project in 1.44s
+2023.07.12 21:59:42 INFO  compiling project (1 scala source)
+2023.07.12 21:59:43 INFO  time: compiled project in 1.07s
+2023.07.12 22:00:24 INFO  compiling project (1 scala source)
+2023.07.12 22:00:24 INFO  time: compiled project in 0.94s
+2023.07.12 22:01:47 INFO  compiling project (1 scala source)
+2023.07.12 22:01:47 INFO  time: compiled project in 0.16s
+2023.07.12 22:01:58 INFO  compiling project (1 scala source)
+2023.07.12 22:01:58 INFO  time: compiled project in 0.18s
+2023.07.12 22:02:06 INFO  compiling project (1 scala source)
+2023.07.12 22:02:06 INFO  time: compiled project in 0.15s
+2023.07.12 22:02:08 INFO  compiling project (1 scala source)
+2023.07.12 22:02:08 INFO  time: compiled project in 0.16s
+2023.07.12 22:03:46 INFO  compiling project (1 scala source)
+2023.07.12 22:03:46 INFO  time: compiled project in 0.17s
+2023.07.12 22:04:02 INFO  compiling project (1 scala source)
+2023.07.12 22:04:02 INFO  time: compiled project in 0.16s
+2023.07.12 22:04:05 INFO  compiling project (1 scala source)
+2023.07.12 22:04:05 INFO  time: compiled project in 0.17s
+2023.07.12 22:04:58 INFO  compiling project (1 scala source)
+2023.07.12 22:04:58 INFO  time: compiled project in 0.15s
+2023.07.12 22:05:00 INFO  compiling project (1 scala source)
+2023.07.12 22:05:00 INFO  time: compiled project in 0.17s
+2023.07.12 22:05:02 INFO  compiling project (1 scala source)
+2023.07.12 22:05:02 INFO  time: compiled project in 0.15s
+2023.07.12 22:05:25 INFO  compiling project (1 scala source)
+2023.07.12 22:05:25 INFO  compiling project (1 scala source)
+2023.07.12 22:05:25 INFO  time: compiled project in 0.1s
+2023.07.12 22:05:42 INFO  compiling project (1 scala source)
+2023.07.12 22:05:42 INFO  time: compiled project in 0.16s
+2023.07.12 22:06:00 INFO  compiling project (1 scala source)
+2023.07.12 22:06:00 INFO  time: compiled project in 0.23s
+Exception in thread "pool-9-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.07.12 22:06:07 INFO  compiling project (1 scala source)
+2023.07.12 22:06:07 WARN  Using indexes to guess the definition of apply
+2023.07.12 22:06:07 INFO  time: compiled project in 0.21s
+2023.07.12 22:06:23 INFO  compiling project (1 scala source)
+2023.07.12 22:06:23 INFO  time: compiled project in 0.18s
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 913, 913, 4833)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 913, 913, 4833)
+2023.07.12 22:06:32 INFO  compiling project (1 scala source)
+2023.07.12 22:06:32 INFO  time: compiled project in 0.22s
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 918, 918, 4839)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 918, 918, 4840)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 918, 918, 4843)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 918, 918, 4841)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 918, 918, 4840)
+2023.07.12 22:06:41 INFO  compiling project (1 scala source)
+2023.07.12 22:06:41 INFO  time: compiled project in 0.19s
+2023.07.12 22:06:48 INFO  compiling project (1 scala source)
+2023.07.12 22:06:48 INFO  time: compiled project in 0.19s
+2023.07.12 22:07:18 INFO  compiling project (1 scala source)
+2023.07.12 22:07:18 INFO  time: compiled project in 0.16s
+2023.07.12 22:08:16 INFO  compiling project (1 scala source)
+2023.07.12 22:08:16 INFO  time: compiled project in 0.16s
+2023.07.12 22:08:21 INFO  compiling project (1 scala source)
+2023.07.12 22:08:21 INFO  time: compiled project in 0.17s
+2023.07.12 22:08:24 INFO  compiling project (1 scala source)
+2023.07.12 22:08:24 INFO  time: compiled project in 0.15s
+Jul 12, 2023 10:08:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5922
+2023.07.12 22:08:31 INFO  compiling project (1 scala source)
+2023.07.12 22:08:31 INFO  time: compiled project in 0.16s
+2023.07.12 22:08:33 INFO  compiling project (1 scala source)
+2023.07.12 22:08:33 INFO  time: compiled project in 0.16s
+2023.07.12 22:09:34 INFO  compiling project (1 scala source)
+2023.07.12 22:09:34 INFO  time: compiled project in 0.2s
+2023.07.12 22:09:40 INFO  compiling project (1 scala source)
+2023.07.12 22:09:40 INFO  time: compiled project in 0.2s
+2023.07.12 22:09:52 INFO  compiling project (1 scala source)
+2023.07.12 22:09:52 INFO  time: compiled project in 0.19s
+2023.07.12 22:10:02 INFO  compiling project (1 scala source)
+2023.07.12 22:10:02 INFO  time: compiled project in 0.21s
+2023.07.12 22:10:20 INFO  compiling project (1 scala source)
+2023.07.12 22:10:20 INFO  time: compiled project in 0.2s
+2023.07.12 22:10:22 INFO  compiling project (1 scala source)
+2023.07.12 22:10:22 INFO  time: compiled project in 0.21s
+2023.07.12 22:10:25 INFO  compiling project (1 scala source)
+2023.07.12 22:10:25 INFO  time: compiled project in 0.21s
+2023.07.12 22:10:28 INFO  compiling project (1 scala source)
+2023.07.12 22:10:28 INFO  time: compiled project in 0.21s
+2023.07.12 22:10:32 INFO  compiling project (1 scala source)
+2023.07.12 22:10:32 INFO  time: compiled project in 0.2s
+2023.07.12 22:10:36 INFO  compiling project (1 scala source)
+2023.07.12 22:10:36 INFO  time: compiled project in 0.22s
+2023.07.12 22:10:39 INFO  compiling project (1 scala source)
+2023.07.12 22:10:39 INFO  time: compiled project in 0.2s
+2023.07.12 22:11:02 INFO  compiling project (1 scala source)
+2023.07.12 22:11:02 INFO  time: compiled project in 0.22s
+2023.07.12 22:11:11 INFO  compiling project (1 scala source)
+2023.07.12 22:11:11 INFO  time: compiled project in 0.2s
+2023.07.12 22:11:24 INFO  compiling project (1 scala source)
+2023.07.12 22:11:24 INFO  time: compiled project in 0.25s
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 3334, 3334, 4653)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 3334, 3334, 4654)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 3334, 3334, 4653)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[Coordinates]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 3334, 3334, 3351)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 3334, 3334, 3352)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 3334, 3334, 3355)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[Coordinates]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 3339, 3339, 3356)
+2023.07.12 22:11:34 INFO  compiling project (1 scala source)
+2023.07.12 22:11:34 INFO  time: compiled project in 0.25s
+2023.07.12 22:11:49 INFO  compiling project (1 scala source)
+2023.07.12 22:11:49 INFO  time: compiled project in 0.24s
+2023.07.12 22:11:49 INFO  compiling project (1 scala source)
+2023.07.12 22:11:49 INFO  time: compiled project in 0.14s
+2023.07.12 22:12:20 INFO  compiling project (1 scala source)
+2023.07.12 22:12:20 INFO  time: compiled project in 0.2s
+Exception in thread "pool-9-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.07.12 22:13:20 INFO  compiling project (1 scala source)
+2023.07.12 22:13:20 INFO  time: compiled project in 0.99s
+2023.07.12 22:13:34 INFO  compiling project (1 scala source)
+2023.07.12 22:13:34 INFO  time: compiled project in 0.97s
+2023.07.12 22:16:05 INFO  compiling project (1 scala source)
+2023.07.12 22:16:06 INFO  time: compiled project in 1.12s
+2023.07.12 22:16:43 INFO  compiling project (1 scala source)
+2023.07.12 22:16:43 INFO  time: compiled project in 0.18s
+2023.07.12 22:16:45 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:16:57 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:17:27 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:18:42 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:19:16 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:19:17 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:19:19 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:19:21 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:19:22 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:19:25 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:19:25 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:19:25 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:19:26 INFO  compiling project (1 scala source)
+2023.07.12 22:19:26 INFO  time: compiled project in 0.22s
+2023.07.12 22:19:28 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:20:21 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:20:21 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:20:22 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:20:22 INFO  compiling project (1 scala source)
+2023.07.12 22:20:22 INFO  time: compiled project in 0.16s
+2023.07.12 22:20:24 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:20:25 INFO  compiling project (1 scala source)
+2023.07.12 22:20:25 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:20:25 INFO  time: compiled project in 0.18s
+2023.07.12 22:20:27 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:20:28 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:20:35 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:20:38 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:20:40 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:20:40 INFO  compiling project (1 scala source)
+2023.07.12 22:20:40 INFO  time: compiled project in 0.2s
+2023.07.12 22:20:42 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:20:50 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:20:53 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:20:54 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:20:54 INFO  compiling project (1 scala source)
+2023.07.12 22:20:54 INFO  time: compiled project in 0.21s
+2023.07.12 22:20:57 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:20:57 INFO  compiling project (1 scala source)
+2023.07.12 22:20:57 INFO  time: compiled project in 0.19s
+2023.07.12 22:21:00 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:21:03 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:21:03 INFO  compiling project (1 scala source)
+2023.07.12 22:21:03 INFO  time: compiled project in 0.2s
+2023.07.12 22:21:06 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:22:21 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:22:25 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:22:27 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:22:30 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:22:30 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:22:32 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:22:32 INFO  compiling project (1 scala source)
+2023.07.12 22:22:32 INFO  time: compiled project in 0.22s
+2023.07.12 22:22:35 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:22:40 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:22:40 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:22:41 INFO  compiling project (1 scala source)
+2023.07.12 22:22:41 INFO  time: compiled project in 0.23s
+2023.07.12 22:22:43 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:22:45 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:22:49 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:22:50 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:22:50 INFO  compiling project (1 scala source)
+2023.07.12 22:22:50 INFO  time: compiled project in 0.21s
+2023.07.12 22:22:53 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:22:56 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:22:56 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:22:57 INFO  compiling project (1 scala source)
+2023.07.12 22:22:57 INFO  time: compiled project in 0.21s
+2023.07.12 22:22:59 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:05 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:09 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:11 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:11 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:13 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:13 INFO  compiling project (1 scala source)
+2023.07.12 22:23:13 INFO  time: compiled project in 0.2s
+2023.07.12 22:23:16 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:22 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:29 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:30 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:30 INFO  compiling project (1 scala source)
+2023.07.12 22:23:30 INFO  time: compiled project in 0.23s
+2023.07.12 22:23:32 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:39 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:39 INFO  compiling project (1 scala source)
+2023.07.12 22:23:39 INFO  time: compiled project in 0.22s
+2023.07.12 22:23:41 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:42 INFO  compiling project (1 scala source)
+2023.07.12 22:23:42 INFO  time: compiled project in 0.2s
+2023.07.12 22:23:42 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:44 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:45 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:46 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:46 INFO  compiling project (1 scala source)
+2023.07.12 22:23:46 INFO  time: compiled project in 0.25s
+2023.07.12 22:23:48 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:50 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:51 INFO  compiling project (1 scala source)
+2023.07.12 22:23:51 INFO  time: compiled project in 0.23s
+2023.07.12 22:23:54 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:58 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:59 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:23:59 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:24:00 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:24:00 INFO  compiling project (1 scala source)
+2023.07.12 22:24:00 INFO  time: compiled project in 0.21s
+2023.07.12 22:24:03 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:24:05 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:24:05 INFO  compiling project (1 scala source)
+2023.07.12 22:24:05 INFO  time: compiled project in 0.22s
+2023.07.12 22:24:08 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:24:11 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:24:13 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:24:14 WARN  Could not load snapshot text for D:\Traveltime_internship\project\src\main\scala\MatchLocationToRegion.scala
+2023.07.12 22:24:14 INFO  compiling project (1 scala source)
+2023.07.12 22:24:15 INFO  time: compiled project in 1.15s
+2023.07.12 22:33:34 INFO  compiling project (1 scala source)
+2023.07.12 22:33:34 INFO  time: compiled project in 0.22s
+2023.07.12 22:33:36 INFO  compiling project (1 scala source)
+2023.07.12 22:33:36 INFO  time: compiled project in 0.19s
+2023.07.12 22:33:40 INFO  compiling project (1 scala source)
+2023.07.12 22:33:40 INFO  time: compiled project in 0.23s
+2023.07.12 22:33:46 INFO  compiling project (1 scala source)
+2023.07.12 22:33:46 INFO  time: compiled project in 0.21s
+2023.07.12 22:34:05 INFO  compiling project (1 scala source)
+2023.07.12 22:34:05 INFO  time: compiled project in 0.21s
+2023.07.12 22:34:07 INFO  compiling project (1 scala source)
+2023.07.12 22:34:07 INFO  time: compiled project in 0.21s
+2023.07.12 22:34:10 INFO  compiling project (1 scala source)
+2023.07.12 22:34:10 INFO  time: compiled project in 0.23s
+2023.07.12 22:34:12 INFO  compiling project (1 scala source)
+2023.07.12 22:34:12 INFO  time: compiled project in 0.2s
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 4117, 4117, 5429)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[<error>]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 4117, 4117, 4136)
+something's wrong: no file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala in List[List[Coordinates]]RangePosition(file:///D:/Traveltime_internship/project/src/main/scala/MatchLocationToRegion.scala, 4117, 4117, 4139)
+2023.07.12 22:35:35 INFO  compiling project (1 scala source)
+2023.07.12 22:35:35 INFO  time: compiled project in 0.21s
+2023.07.12 22:35:46 INFO  compiling project (1 scala source)
+2023.07.12 22:35:46 INFO  time: compiled project in 0.2s
+2023.07.12 22:35:49 INFO  compiling project (1 scala source)
+2023.07.12 22:35:49 INFO  time: compiled project in 0.21s
+2023.07.12 22:35:51 INFO  compiling project (1 scala source)
+2023.07.12 22:35:51 INFO  time: compiled project in 0.2s
+2023.07.12 22:35:54 INFO  compiling project (1 scala source)
+2023.07.12 22:35:54 INFO  time: compiled project in 0.21s
+2023.07.12 22:37:32 INFO  compiling project (1 scala source)
+2023.07.12 22:37:32 INFO  time: compiled project in 0.96s
+Jul 12, 2023 10:38:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7530
+2023.07.12 22:38:21 INFO  compiling project (1 scala source)
+2023.07.12 22:38:21 INFO  time: compiled project in 0.17s
+2023.07.12 22:38:24 INFO  compiling project (1 scala source)
+2023.07.12 22:38:24 WARN  Using indexes to guess the definition of Double
+2023.07.12 22:38:24 WARN  Using indexes to guess the definition of Double
+2023.07.12 22:38:25 INFO  time: compiled project in 1.15s
+2023.07.12 22:38:38 INFO  compiling project (1 scala source)
+2023.07.12 22:38:39 INFO  time: compiled project in 1.17s
+2023.07.12 22:38:49 INFO  compiling project (1 scala source)
+2023.07.12 22:38:50 INFO  time: compiled project in 1.48s

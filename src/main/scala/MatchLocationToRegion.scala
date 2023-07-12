@@ -3,7 +3,8 @@ import java.io.PrintWriter
 import play.api.libs.json._
 import play.api.libs.functional.syntax._
 
-//classes for location, region and results
+//classes for coordinates, location, region and results
+case class Coordinates(x: Double, y: Double)
 case class Location(name: String, coordinates: List[Double])
 case class Region(name: String, coordinates: List[List[List[Double]]])
 case class Results(region: String, matchedLocations: List[String])
@@ -41,8 +42,9 @@ object MatchLocationToRegion
 
         locationList.fold(
             errors => {
-            println("Failed to parse locations")
-            List.empty[Location]
+                println("Failed to parse locations")
+                errors.foreach(println)
+                List.empty[Location]
             },
             values => {
                 values.flatMap { location =>
@@ -65,8 +67,9 @@ object MatchLocationToRegion
 
         regionList.fold(
             errors => {
-            println("Failed to parse regions")
-            List.empty[Region]
+                println("Failed to parse regions")
+                errors.foreach(println)
+                List.empty[Region]
             },
             values => {
                 values.flatMap { region =>
@@ -128,13 +131,13 @@ object MatchLocationToRegion
 
     //convert matched regions to json format
     def resultsToJson(results: List[Results]): String = {
-    val jsonList = results.map { matchedRegion =>
-        Json.obj(
-        "region" -> matchedRegion.region,
-        "matched_locations" -> matchedRegion.matchedLocations
-        )
-    }
+        val jsonList = results.map { matchedRegion =>
+            Json.obj(
+            "region" -> matchedRegion.region,
+            "matched_locations" -> matchedRegion.matchedLocations
+            )
+        }
 
-    Json.prettyPrint(Json.obj("regions" -> jsonList))
+        Json.prettyPrint(Json.obj("regions" -> jsonList))
     }
 }

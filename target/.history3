@@ -7,3 +7,4 @@
 1689073702373:runMain MatchLocationToRegion input/locations.json input/regions.json output/results.json~
 1689073790230:sbt "runMain MatchLocationToRegion src/main/input/locations.json src/main/input/regions.json src/main/output/results.json"
 1689073803815:runMain MatchLocationToRegion src/main/input/locations.json src/main/input/regions.json src/main/output/results.json
+1689183764922:runMain MatchLocationToRegion --locations input/locations.json --regions input/regions.json --output output/results.json
